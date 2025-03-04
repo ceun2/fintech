@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML 기본 요소 테스트 페이지</h1>
+      <div>
+        <a href="#intro">소개</a> | <a href="#list">목록</a> |
+        <a href="#survey">설문조사</a> |
+        <a href="#team">팀원 정보</a>
+      </div>
+    </header>
+
+    <hr />
+
+    <main>
+      <h2 id="intro">소개</h2>
+      <p>
+        이 페이지는 HTML의 자주 사용하는 태그들을 테스트하기 위해
+        만들어졌습니다.
+      </p>
+
+      <hr />
+
+      <h2 id="list">목록 테스트</h2>
+      <h3>순서 있는 목록 (ol)</h3>
+      <ol>
+        <li>HTML 배우기</li>
+        <li>CSS 배우기</li>
+        <li>Javascript 배우기</li>
+      </ol>
+      <h3>순서 없는 목록 (ul)</h3>
+      <ul>
+        <li>노트북</li>
+        <li>키보드</li>
+        <li>마우스</li>
+      </ul>
+
+      <hr />
+
+      <form action="/" method="POST">
+        <h2 id="survey">설문조사 폼</h2>
+        <label>이름 : </label>
+        <input type="text" />
+        <br />
+        <label>이메일 : </label>
+        <input type="email" />
+
+        <ol>
+          <h3><li>좋아하는 과일을 선택하세요 (체크박스)</li></h3>
+          <div>
+            <input type="checkbox" />
+            <label>사과</label>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <label>바나나</label>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <label>포도</label>
+          </div>
+        </ol>
+        <ol>
+          <h3><li>선호하는 개발 언어는 무엇인가요? (라디오 버튼)</li></h3>
+          <div>
+            <input type="radio" name="dev" />
+            <label>HTML</label>
+          </div>
+          <div>
+            <input type="radio" name="dev" />
+            <label>CSS</label>
+          </div>
+          <div>
+            <input type="radio" name="dev" />
+            <label>JavaScript</label>
+          </div>
+        </ol>
+
+        <label>의견 : </label>
+        <br />
+        <textarea></textarea>
+        <br />
+
+        <input type="submit" />
+      </form>
+
+      <hr />
+
+      <h2 id="team">팀원 정보 표</h2>
+      <table border="1px">
+        <caption>
+          프로젝트 팀원 목록
+        </caption>
+        <thead>
+          <tr>
+            <th>이름</th>
+            <th>역할</th>
+            <th>이메일</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>홍길동</td>
+          <td>프론트엔드</td>
+          <td>hong@example.com</td>
+        </tr>
+        <tr>
+          <td>김영희</td>
+          <td>백엔드</td>
+          <td>kim@example.com</td>
+        </tr>
+        <tr>
+          <td>이철수</td>
+          <td>디자인</td>
+          <td>lee@example.com</td>
+        </tr>
+      </table>
+    </main>
+    <hr />
+
+    <footer>
+      <p>&copy; 2025 HTML 테스트 페이지 | 문의 : test@example.com</p>
+    </footer>
+  </body>
+</html>
