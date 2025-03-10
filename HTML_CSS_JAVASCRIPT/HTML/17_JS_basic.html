@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../CSS/11_JS_basic.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS_basic</title>
+    <!--  console.log("hello world!");
+        const : 자료가 변하지 않음
+        let, var : 자료 변경 가능
+        window.onload = function () {
+           const title = document.querySelector("#title");
+           console.log(title);
+         }; -->
+    <!-- defer가 window.onload 같은 속성 -->
+    <!-- html을 먼저 부른다음에 javascript를 실행 -->
+    <script defer src="../JavaScript/01_JS_basic.js"></script>
+  </head>
+  <body>
+    <h1 id="title">HELLO WORLD in H1 tag</h1>
+
+    <hr />
+
+    <h1>클릭 이벤트 연결하기</h1>
+    <a href="https://www.naver.com" target="_blank">click</a>
+
+    <hr />
+    <!-- 특정 영역에 마우스 포인터를 우치할 때 동작하는 이벤트 -->
+    <h1>호버 이벤트 연결하기</h1>
+    <div id="box"></div>
+
+    <hr />
+
+    <h1>반복되는 요소에 이벤트 한번에 연결하기</h1>
+    <ul class="list">
+      <li><a href="#">item1</a></li>
+      <li><a href="#">item2</a></li>
+      <li><a href="#">item3</a></li>
+      <li><a href="#">item4</a></li>
+    </ul>
+
+    <hr>
+
+    <h1>클릭 이벤트가 발생할 때 숫자가 증가하거나 감소</h1>
+    <a href="#" class="btnPlus">Plus</a>
+    <a href="#" class="btnMinus">Minus</a>
+
+    <hr>
+
+    <h1>버튼을 클릭하면 좌우로 회전하는 박스 만들기</h1>
+    <a href="#" class="btnLeft">왼쪽으로 회전</a>
+    <a href="#" class="btnRight">오른쪽으로 회전</a>
+    <div id="box2">box2</div>
+
+    <hr>
+  </body>
+</html>
