@@ -1,5 +1,5 @@
-Python/.ipynb_checkpoints/
 Python/data/
 
+*.ipynb_checkpoints
 *.json
 *.csv
