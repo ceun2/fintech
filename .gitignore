@@ -1,5 +1,7 @@
 Python/data/
+Data_scraping/dist/
 
+*.exe
 *.ipynb_checkpoints
 *.json
 *.csv
