@@ -1,5 +1,6 @@
 Python/data/
 Data_scraping/dist/
+Data_scraping/__pycache__
 
 *.exe
 *.ipynb_checkpoints
