@@ -19,8 +19,12 @@ options.add_argument('start-maximized')
 options.add_argument('Chrome/134.0.0.0')
 options.add_argument('lang=ko_KR')
 
-options.add_argument('--headless')  # 헤드리스 모드일 경우
-options.add_argument('--disable-gpu')  # 이게 핵심
+# 헤드리스 모드일 경우
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+# gpu 안쓰기
+options.add_argument('--disable-gpu') 
 
 def ko2eng(keyword):
     try:
@@ -43,4 +47,4 @@ def ko2eng(keyword):
         driver.quit()
     return result
 
-ko2eng('파이썬')
+ko2eng('여름이었다')
