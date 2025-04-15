@@ -1,6 +1,7 @@
 Python/data/
 Data_scraping/dist/
 Data_scraping/__pycache__
+Machine_Learning/data
 
 *.exe
 *.ipynb_checkpoints
