@@ -3,6 +3,7 @@ Data_scraping/dist/
 Data_scraping/__pycache__
 Machine_Learning/data
 
+*.html
 *.exe
 *.ipynb_checkpoints
 *.json
