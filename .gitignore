@@ -1,10 +1,11 @@
-Python/data/
-Data_scraping/dist/
-Data_scraping/__pycache__
-Machine_Learning/data
+03_Python/data/
+04_Data_scraping/dist/
+04_Data_scraping/__pycache__
+05_Machine_Learning/data
 
-*.html
 *.exe
 *.ipynb_checkpoints
 *.json
 *.csv
+*.tsv
+*.xlsx
