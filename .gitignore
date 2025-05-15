@@ -2,6 +2,8 @@
 04_Data_scraping/dist/
 04_Data_scraping/__pycache__
 05_Machine_Learning/data
+06_Deep_Learning/data
+06_Deep_Learning/model
 
 *.exe
 *.ipynb_checkpoints
@@ -9,3 +11,5 @@
 *.csv
 *.tsv
 *.xlsx
+*.keras
+*.joblib
